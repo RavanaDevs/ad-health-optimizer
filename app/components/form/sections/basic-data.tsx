@@ -6,7 +6,7 @@ const BasicData: React.FC<BasicDataProps> = ({ onNext }) => {
   return (
     <div className="flex flex-col justify-between h-full">
       <div className="form-fields">
-        <h2 className="text-2xl font-semibold mb-4">Basic Data</h2>
+        <h2 className="text-2xl font-semibold mb-4">Step 1</h2>
         <input
           type="text"
           placeholder="Location"

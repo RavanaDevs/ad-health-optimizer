@@ -12,7 +12,7 @@ const MultiStepForm = () => {
   const prevStep = () => setCurrentStep((prev) => prev - 1);
 
   return (
-    <div className="p-6 max-w-lg mx-auto h-[400px] w-[550px] bg-white rounded-md shadow-md">
+    <div className="p-6 w-[750px] mx-auto min-h-[400px] bg-white rounded-md shadow-md">
       {currentStep === 1 && <BasicData onNext={nextStep} />}
       {currentStep === 2 && <TitleDescription onNext={nextStep} onBack={prevStep} />}
       {currentStep === 3 && <ImageUpload onNext={nextStep} onBack={prevStep} />}

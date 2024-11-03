@@ -1,0 +1,17 @@
+.wrapper {
+    border: 2px solid rgb(157, 244, 157)
+  }
+  
+  .container {
+    background-color: rgb(231, 255, 220);
+  }
+  
+  .barCompleted {
+    background-color: lightblue;
+    width: 80%;
+  }
+  
+  .label {
+    font-size: 20px;
+    color: green;
+  }
