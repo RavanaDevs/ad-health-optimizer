@@ -38,7 +38,7 @@ const TitleDescription: React.FC<TitleDescriptionProps> = ({
   };
 
   const generateTitles = async () => {
-    const res = await fetch("http://localhost:5000/generate_titles", {
+    const res = await fetch("http://170.187.237.26:5000/generate_titles", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -50,7 +50,7 @@ const TitleDescription: React.FC<TitleDescriptionProps> = ({
   };
 
   const checkSimilarity = async () => {
-    const res = await fetch("http://localhost:5000/check-similarity", {
+    const res = await fetch("http://170.187.237.26:5000/check-similarity", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
